@@ -26,5 +26,5 @@
   },
   "author": "Sam Stainsby, Sustainable Software Pty Ltd (sam@sustainablesoftware.com.au)",
   "license": "MIT",
-  "repository": "ssh://sam@dev.sustainablesoftware.com.au:45613/home/sam/projects/dgasync"
+  "repository": "git@github.com:stainsby/dga-sync.git"
 }
