@@ -1,7 +1,7 @@
 {
   "name": "dga-sync",
   "version": "1.0.0",
-  "description": "Sync data sets from data.gov.au, the Australian government's open data website.",
+  "description": "Sync datasets from data.gov.au, the Australian government's open data website.",
   "keywords": [
     "data",
     "open data",

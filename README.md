@@ -1,7 +1,7 @@
 # dga-sync README
 
 
-## Sync data.gov.au datsets easily
+## Sync data.gov.au datasets easily
 
 The Australian government's data.gov.au website references a growing
 abundance of public and open data government data resources - more
@@ -63,7 +63,7 @@ writing download metadata to: data/._METADATA_.json
 ```
 
 At this point, a directory called `data` under the current working directory
-will have be created and will contain the downloaded resources plus a metadata
+will have been created and will contain the downloaded resources plus a metadata
 file created by dga-sync:
 ```
 $ ls -lhA data
@@ -76,8 +76,8 @@ total 744K
 -rw-r--r-- 1 sam sam 139K Sep 24 11:14 wms?request=GetCapabilities
 ```
 
-The metadata file will ensurethat next time we check, only newer resources
-than we already have will be donwloaded, saving on bandwidth.
+The metadata file will ensure that next time we check, only newer resources
+than we already have will be downloaded, saving on bandwidth.
 
 
 ### Limiting what gets downloaded
@@ -94,7 +94,7 @@ sync.syncByPackageId(
   }
 );
 ```
-The use of `deleteUnlisted` is optional, and is tells dga-sync to delete 
+The use of `deleteUnlisted` is optional -it  tells dga-sync to delete 
 previously downloaded files now excluded by the filter. The contents of
 `data` is now:
 ```
@@ -110,7 +110,7 @@ There is currently only one method:
 
 **syncByPackageId(packageId, options, andThen)**
 
-`packageId` - the ID of the package'
+`packageId` - the ID of the package/dataset
 
 `options` - an object with the following options:
   
@@ -119,9 +119,7 @@ There is currently only one method:
     
   - `idCanonicaliser` - a function that takes the resource ID (according to the 
     `idFieldName` option) and creates a canonical ID for future comparison 
-    in later sync operations (this is useful for file 
-    dumps that are revised by adding new dumps instead of updating the old 
-    resource id) [default: split the ID at '/'s and use use the last part: 
+    in later sync operations [default: split the ID at '/'s and use use the last part: 
     this assumes that `idFieldName` is the default value of `'url'`]
     
   - `idFilter` - applied to the (canonicalised) resource ID to choose which 
