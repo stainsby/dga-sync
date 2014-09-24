@@ -1,0 +1,30 @@
+{
+  "name": "dga-sync",
+  "version": "1.0.0",
+  "description": "Sync data sets from data.gov.au, the Australian government's open data website.",
+  "keywords": [
+    "data",
+    "open data",
+    "synchronization",
+    "Australia",
+    "Australian",
+    "data.gov.au",
+    "datasets",
+    "public data",
+    "government",
+    "government data"
+  ],
+  "main": "./lib/index.js",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "download": "^2.0.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sam Stainsby, Sustainable Software Pty Ltd (sam@sustainablesoftware.com.au)",
+  "license": "MIT",
+  "repository": "ssh://sam@dev.sustainablesoftware.com.au:45613/home/sam/projects/dgasync"
+}

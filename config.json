@@ -1,0 +1,14 @@
+{
+  "apiBaseUrl" : "http://data.gov.au/api/3",
+  "defaults" : {
+    "fetch" : {
+      "idFieldName" : "url"
+    },
+    "repo" : {
+      "dataDestination" : "data",
+      "metadataFile" : "._METADATA_.json",
+      "temporaryPrefix" : "._DGA_DOWNLOAD_",
+      "deleteUnlisted" : false
+    }
+  }
+}
