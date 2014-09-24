@@ -8,7 +8,7 @@ abundance of public and open data government data resources - more
 than 3700 datasets at the time of writing. While in some cases, data.gov.au
 provides an API to access a dataset, it doesn't always. For this reason and
 others, there are often advantages in downloading the data for local use or
-to re-package it. dga-sync utility eases the task of synchronising 
+to re-package it. The dga-sync utility eases the task of synchronising 
 that data to a local file system.
 
 dga-sync uses the JSON metadata stored on data.gov.au for
