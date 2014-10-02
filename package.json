@@ -1,6 +1,6 @@
 {
   "name": "dga-sync",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Sync datasets from data.gov.au, the Australian government's open data website.",
   "keywords": [
     "data",
@@ -17,8 +17,9 @@
   "main": "./lib/index.js",
   "dependencies": {
     "chalk": "^0.5.1",
-    "download": "^2.0.0",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "request": "^2.44.0",
+    "request-progress": "^0.3.1"
   },
   "devDependencies": {},
   "scripts": {
