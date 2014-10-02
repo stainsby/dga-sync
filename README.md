@@ -94,7 +94,7 @@ sync.syncByPackageId(
   }
 );
 ```
-The use of `deleteUnlisted` is optional -it  tells dga-sync to delete 
+The use of `deleteUnlisted` is optional - it  tells dga-sync to delete 
 previously downloaded files now excluded by the filter. The contents of
 `data` is now:
 ```
