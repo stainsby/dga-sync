@@ -37,7 +37,7 @@ var sync = require('dga-sync');
 sync.syncByPackageId('23218e8f-babe-4e37-81d1-5424a4d1c568');
 ```
 
-This is what the console output looks like (actual output is colourised where
+This is what the console output looks like (output is colourised where
 supported):
 ```
 fetching metadata for package ID: 23218e8f-babe-4e37-81d1-5424a4d1c568
